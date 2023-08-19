@@ -11,6 +11,9 @@ function Add(props) {
   });
 
   const handleAddClick = () => {
+    if (task.taskName === '') {
+      return;
+    }
     addTask({ taskName: task, doneState: false });
     setTask({
       taskName: '',
