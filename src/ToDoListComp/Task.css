@@ -1,16 +1,16 @@
 .taskContainer {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgb(226, 226, 226);
-  padding: 10px;
-  border-radius: 5px;
-  width: 700px;
+	display: flex;
+	justify-content: space-between;
+	border: 0.11rem solid rgb(226, 226, 226);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	width: 100%;
 }
 
 .done {
-  background-color: rgb(144, 238, 144, 0.3);
-  color: green;
+	background-color: rgb(144, 238, 144, 0.3);
+	color: green;
 }
 .notDone {
-  background-color: white;
+	background-color: white;
 }

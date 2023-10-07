@@ -27,8 +27,8 @@ function Add(props) {
 	};
 
 	return (
-		<div className='addContainer mt-5 mx-3 d-flex justify-content-between'>
-			<div>
+		<div className='addContainer mt-5 mx-3'>
+			<div className='inputContainer'>
 				<label htmlFor='taskName' className='mx-3 fw-bold'>
 					Task
 				</label>
@@ -43,7 +43,7 @@ function Add(props) {
 					className='border p-2'
 				/>
 			</div>
-			<Button variant='primary mb-1 mx-4' onClick={handleAddClick}>
+			<Button className='btnAdd ' variant='primary mb-1 mx-4' onClick={handleAddClick}>
 				Add
 			</Button>
 		</div>
